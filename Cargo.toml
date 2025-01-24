@@ -1,0 +1,10 @@
+[package]
+name = "blend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cairo-rs = { version = "0.20.7", features = ["png"] }
+clap = { version = "4.5.27", features = ["derive"] }
+jpeg-decoder = "0.3.1"
+jpeg-encoder = "0.6.0"
